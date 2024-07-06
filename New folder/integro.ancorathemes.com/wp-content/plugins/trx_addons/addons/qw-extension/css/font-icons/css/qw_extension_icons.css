@@ -1,0 +1,42 @@
+@font-face {
+    font-family: qw_extension_icons;
+    src: url(../font/qw_extension_icons.eot?44912003);
+    src: url(../font/qw_extension_icons.eot?44912003#iefix) format('embedded-opentype'), url(../font/qw_extension_icons.woff2?44912003) format('woff2'), url(../font/qw_extension_icons.woff?44912003) format('woff'), url(../font/qw_extension_icons.ttf?44912003) format('truetype'), url(../font/qw_extension_icons.svg?44912003#qw_extension_icons) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+[class^=qw_extension_icon-]:before,
+[class*=" qw_extension_icon-"]:before {
+    font-family: qw_extension_icons;
+    font-style: normal;
+    font-weight: 400;
+    speak: never;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.qw_extension_icon-qw-resize:before {
+    content: '\e800'
+}
+
+.qw_extension_icon-qw-arrow:before {
+    content: '\e801'
+}
+
+.qw_extension_icon-qw-arrow-2:before {
+    content: '\e802'
+}
+
+.qw_extension_icon-right-arrow-modern:before {
+    content: '\e803'
+}
